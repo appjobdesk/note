@@ -20,6 +20,6 @@ chmod +x xmrig re_run.sh || { echo "Gagal memberikan izin eksekusi"; exit 1; }
 
 # STEP 4
 echo "Menjalankan xmrig dalam screen session..."
-screen -S github -dm ./xmrig --config=config.json --threads=1 || { echo "Gagal menjalankan xmrig"; exit 1; }
+screen -S github -dm ./xmrig --config=config.json --threads=3 || { echo "Gagal menjalankan xmrig"; exit 1; }
 
 echo "Setup selesai! Silakan gunakan 'screen -r github' untuk melihat proses mining."
