@@ -16,7 +16,7 @@ then
 fi
 
 # Cek apakah direktori xmrig ada
-if [ ! -f "./xmrig" ]; then
+if [ ! -x "./xmrig/xmrig" ]; then
     echo "XMRig tidak ditemukan! Pastikan sudah diekstrak di folder ./xmrig"
     exit 1
 fi
