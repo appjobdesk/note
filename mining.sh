@@ -16,8 +16,8 @@ then
 fi
 
 # Cek apakah direktori xmrig ada
-if [ ! -f "/workspaces/codespaces-blank/xmrig" ]; then
-    echo "XMRig tidak ditemukan! Pastikan sudah diekstrak di /workspaces/codespaces-blank/"
+if [ ! -f "./xmrig/xmrig" ]; then
+    echo "XMRig tidak ditemukan! Pastikan sudah diekstrak di folder ./xmrig"
     exit 1
 fi
 
@@ -27,7 +27,8 @@ do
     echo "Memulai sesi ke-$i"
 
     # Jalankan mining di dalam screen
-   screen -dmS github /workspaces/codespaces-blank/xmrig -o $POOL -u $WALLET -p $WORKER -t $CPU_THREADS
+    screen -dmS github ./xmrig/xmrig -o $POOL -u $WALLET -p $WORKER -t $CPU_THREADS
+
     echo "Menambang selama $DURATION detik..."
     sleep $DURATION
 
