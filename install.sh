@@ -1,4 +1,9 @@
 #!/bin/bash
+# remove error 1
+sudo rm -f /etc/apt/sources.list.d/github_git-lfs.list
+
+# remove error 2
+sudo rm /etc/apt/sources.list.d/git-lfs.list 2>/dev/null
 
 # Update & install screen
 sudo apt update && sudo apt install -y screen
