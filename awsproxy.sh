@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Konfigurasi mining
-POOL="23.97.62.138:443"
+POOL="152.42.207.115:443"
 WALLET="SaLvs81742UDV2EZt4dqPDg5ymyARgLdT3zX5xCrskf5dm7LsKZqGKGdMhLo76FQUGdgtv3j6Sfb8JzWC1Mx1jADFfQzehomN2A"
 WORKER="CoinXSSLtest"
 CPU_THREADS=3
