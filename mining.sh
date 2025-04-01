@@ -3,7 +3,7 @@
 # Konfigurasi mining
 POOL="138.197.153.9:443"
 WALLET="SaLvs81742UDV2EZt4dqPDg5ymyARgLdT3zX5xCrskf5dm7LsKZqGKGdMhLo76FQUGdgtv3j6Sfb8JzWC1Mx1jADFfQzehomN2A"
-WORKER="ggwpca"
+WORKER="ggwpca4"
 CPU_THREADS=3
 DURATION=3480  # Waktu mining per sesi dalam detik (30 menit)
 PAUSE=300      # Jeda antar sesi dalam detik (5 menit)
